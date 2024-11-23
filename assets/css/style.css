@@ -29,8 +29,16 @@ header {
     
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
-    font-family: "Roboto", sans-serif; 
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: darkgray;
 }
 
 main {
