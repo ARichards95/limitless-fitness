@@ -173,6 +173,16 @@ main {
         margin-top: 76px;
     }
 
+    #hero {
+        background: url(../images/pexels-victorfreitas-841130.jpg) no-repeat center center/cover;
+        height: 1000px;
+
+    }
+
+    #cover-text {
+        bottom: -50px;
+        position: absolute;
+    }
 
 }
 
@@ -184,12 +194,13 @@ main {
 
     #hero {
         background: url(../images/pexels-victorfreitas-841130.jpg) no-repeat center center/cover;
-    
+
     }
 
     #cover-text {
-        bottom: 115px;
-        
+        bottom: -85px;
+        position: absolute;
+
     }
 
 
