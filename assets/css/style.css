@@ -131,6 +131,23 @@ hr {
     margin: 5px 0;
 }
 
+#circle-cover-bg {
+    background: url(../images/pexels-ivan-samkov-4164761.jpg) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Border radius added to adjust image from square to circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+/* Adjust image to center of display */
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Hero Section */
 #hero {
     height: 800px;
