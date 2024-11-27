@@ -180,8 +180,10 @@ main {
     }
 
     #cover-text {
-        bottom: -50px;
+        bottom: -10px;
         position: absolute;
+        width: 300px;
+        right: 50px;
     }
 
 }
