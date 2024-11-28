@@ -245,8 +245,34 @@ button {
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
-    
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
 }
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styes for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: darkgrey;
+}
+
+/* Float cancel and signup buttons and an equal width */
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+
+.container {
+    padding: 16px;
+}
+
+
 
 
 /* Media query: tablets and larger (768px and up) */
